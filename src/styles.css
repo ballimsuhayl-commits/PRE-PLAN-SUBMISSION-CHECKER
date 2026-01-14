@@ -1,0 +1,25 @@
+:root{ color-scheme: dark; }
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: #020617;
+  color: #f8fafc;
+  margin:0;
+}
+*{ box-sizing:border-box; }
+
+
+.shell{min-height:100vh; display:flex; flex-direction:column;}
+.topbar{height:52px; display:flex; align-items:center; justify-content:space-between; padding:0 18px; background:#020617; border-bottom:1px solid #0f172a;}
+.brand{display:flex; align-items:center; gap:10px;}
+.dot{width:10px;height:10px;border-radius:999px;background:#3b82f6;}
+.title{font-weight:800; letter-spacing:.18em; font-size:12px;}
+.muted{opacity:.55; font-weight:700; font-size:10px;}
+.status{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:11px; color:#22c55e;}
+.tabs{display:flex; border-bottom:1px solid #0f172a; background:rgba(15,23,42,.45);}
+.tab{flex:1; padding:12px 10px; border:0; background:transparent; color:#64748b; font-weight:800; letter-spacing:.12em; font-size:11px; cursor:pointer;}
+.tab.active{color:#3b82f6; background:rgba(59,130,246,.10); border-bottom:2px solid #3b82f6;}
+.content{flex:1; padding:22px;}
+.card{max-width:1000px; margin:0 auto; background:rgba(15,23,42,.65); border:1px solid rgba(148,163,184,.16); border-radius:16px; padding:18px;}
+.h{font-weight:800; font-size:14px; letter-spacing:.08em; text-transform:uppercase; color:#94a3b8;}
+.p{margin-top:10px; font-size:13px; line-height:1.5; color:#e2e8f0;}
+.p.muted{color:#94a3b8;}

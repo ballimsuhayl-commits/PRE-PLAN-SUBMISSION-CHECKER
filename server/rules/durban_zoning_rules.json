@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "name": "eThekwini / Durban starter zoning rules (editable)",
+    "notes": [
+      "This file is intentionally conservative and must be verified against the official scheme and consent conditions.",
+      "Update rules per your practice knowledge. Codes vary by area and scheme amendments."
+    ],
+    "defaults": { "far": 1.2, "coverage": 0.6, "setbackM": 3, "heightFloors": 8 }
+  },
+  "rules": {
+    "RES": { "far": 1.0, "coverage": 0.5, "setbackM": 3, "heightFloors": 3 },
+    "RS":  { "far": 1.0, "coverage": 0.5, "setbackM": 3, "heightFloors": 3 },
+    "MU":  { "far": 2.0, "coverage": 0.7, "setbackM": 0, "heightFloors": 8 },
+    "BUS": { "far": 2.5, "coverage": 0.8, "setbackM": 0, "heightFloors": 12 },
+    "CBD": { "far": 4.0, "coverage": 0.85, "setbackM": 0, "heightFloors": 20 }
+  }
+}
